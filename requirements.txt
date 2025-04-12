@@ -2,7 +2,6 @@ selenium
 unidecode
 lxml
 streamlit
-requests
-ChromeDriverManager
+webdriver_manager
 unidecode
 matplotlib

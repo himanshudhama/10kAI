@@ -48,7 +48,9 @@ def download_sec_filings(ticker, start_date_str, end_date_str, filing_type):
         print("downloaded_files\\"+ticker+filing_type+str(index))
         #import  pdb;pdb.set_trace()
         open("downloaded_files\\"+ticker+filing_type+str(index)+".html" , 'w').write(unidecode(driver.page_source))
-        print("downloaded")
+        print("downloaded 213")
+        for i in range(10):
+            print(i)
         #except:
          #   continue  # skip if not found
 
