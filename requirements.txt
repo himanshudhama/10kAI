@@ -1,0 +1,8 @@
+selenium
+unidecode
+lxml
+streamlit
+requests
+ChromeDriverManager
+unidecode
+matplotlib
